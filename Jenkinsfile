@@ -8,7 +8,7 @@ pipeline {
         stage ('Checkout SCM') {
 
             steps {
-			    git branch: 'main', url: 'https://github.com/sushmitha2506/skydevops-maven-repo.git'
+	     checkout scm
             }
         }
 
