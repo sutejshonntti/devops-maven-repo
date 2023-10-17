@@ -1,6 +1,7 @@
-# eleven-devops-maven-repo
+# eleven-DevOps-maven-repo
 #Java code
 #Demo Project
-#Mavnen is Build tool for Java Project
+#Mavnen is a Build tool for Java Project
 
 #Updated the code 17/10/2023
+#Updated the code 17/10/2023 -2 
