@@ -1,9 +1,19 @@
 pipeline{
     agent any
     stages{
-        stage('clone_repo'){
+        stage('build'){
             steps{
-                git branch: 'main', url: 'https://github.com/sutejshonntti/devops-maven-repo.git'
+                echo "build stage"
+            }
+        }
+        stage('test'){
+            steps{
+                echo " test stage"
+            }
+        }
+        stage('deploy'){
+            steps{
+                echo "deploy stage"
             }
         }
     }
