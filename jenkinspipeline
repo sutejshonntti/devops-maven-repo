@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage('clone_repo'){
+            steps{
+                git branch: 'main', url: 'https://github.com/sutejshonntti/devops-maven-repo.git'
+            }
+        }
+    }
+}
